@@ -6,10 +6,8 @@ var appliname = 'karuta-iut2';
 var karutaname = 'karuta-core'
 var karuta_url = '../../../' + karutaname;
 var bckname = '-iut2';
-var serverBCK = "karuta-backend"+bckname+"/rest/api";
-var serverFIL = "karuta-backend"+bckname;
-var serverVER = "karuta-backend"+bckname;
-var serverREG = "karuta-backend"+bckname;
+var serverBCK = "../../../karuta-backend"+bckname;
+var serverBCK_API = "../../../karuta-backend"+bckname+"/rest/api";
 //----------------------------------
 var elgg_url_base = 'elgg/';
 var elgg_installed = false;
