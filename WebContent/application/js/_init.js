@@ -15,6 +15,7 @@ var elgg_refreshing = 240000; // 240 seconds
 //----------------------------------
 var languages = [];
 languages [0] = 'fr';
+languages [1] = 'en';
 //languages [1] = 'fr';
 //languages [2] = 'ja';
 //----------------------------------
@@ -71,4 +72,4 @@ g_sendEmailPublicURL_message +="&lt;/div&gt;";
 g_sendEmailPublicURL_message += "Karuta Team";
 g_sendEmailPublicURL_message +="&lt;/div&gt;";
 //----------------------------------------------
-
+var specificmenus=true;
