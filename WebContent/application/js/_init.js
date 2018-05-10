@@ -3,11 +3,12 @@ var application_version = "1.0";
 var application_date = "2016-04-29";
 //----------------------------------
 var appliname = 'karuta-iut2';
-var karutaname = 'karuta-core'
+var karutaname = 'karuta-iut2'
 var karuta_url = '../../../' + karutaname;
 var bckname = '-iut2';
 var serverBCK = "../../../karuta-backend"+bckname;
 var serverBCK_API = "../../../karuta-backend"+bckname+"/rest/api";
+var cas_url = "https://cas-uga.grenet.fr";
 //----------------------------------
 var elgg_url_base = 'elgg/';
 var elgg_installed = false;
@@ -26,6 +27,8 @@ var LANG = languages[LANGCODE]; //default value
 var technical_support = ""; // email of technical support
 var demo = false;
 var karuta_create_account = false;
+var audiovideohtml5 = true;
+
 //--------- NAVBAR BRAND ------------------
 var navbar_title = {};
 navbar_title["fr"] = "<img style='margin-top:-4px;' src='"+karuta_url+"/karuta/img/karuta-navbar.jpg'/>";
@@ -42,11 +45,11 @@ var welcome3 = {};       // Welcome paragraph
 	welcome3["en"] = "";
 //---------MAIN PAGE-------------------------
 var welcome4 = {};			//  Welcome title
-	welcome4["fr"] = "BIENVENUE DANS KARUTA 2.2";
-	welcome4["en"] = "WELCOME TO KARUTA 2.2";
+	welcome4["fr"] = "BIENVENUE DANS KARUTA 2.3";
+	welcome4["en"] = "WELCOME TO KARUTA 2.3";
 var welcome5 = {}; 			//  Welcome sub-title
-	welcome5["fr"] = "PORTFOLIO OPEN SOURCE";
-	welcome5["en"] = "OPEN SOURCE PORTFOLIO";
+	welcome5["fr"] = "IUT2 Grenoble";
+	welcome5["en"] = "IUT2 Grenoble";
 	var listinfo = {};       // Welcome text
 	listinfo["fr"] = "";
 	listinfo["en"] = "";
@@ -73,3 +76,7 @@ g_sendEmailPublicURL_message += "Karuta Team";
 g_sendEmailPublicURL_message +="&lt;/div&gt;";
 //----------------------------------------------
 var specificmenus=true;
+//------ BUBBLE MAP -------------------------------------
+var bubble_installed = false;
+//------ EUROPASS -------------------------------------
+var europass_installed = true;

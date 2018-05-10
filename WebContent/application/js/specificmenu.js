@@ -14,7 +14,7 @@ function specificmenushtml()
 //==============================
 {
 	var html = "";
-	html += "						<li><a  onclick='call_create_batch_user_portfolios()'>"+appStr[LANG]['create_user_portfolios']+"</a></li>";
+//	html += "						<li><a  onclick='call_create_batch_user_portfolios()'>"+appStr[LANG]['create_user_portfolios']+"</a></li>";
 	return html;
 }
 
